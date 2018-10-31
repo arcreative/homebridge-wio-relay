@@ -1,0 +1,34 @@
+{
+  "name": "homebridge-pet-feeder",
+  "version": "0.1.3",
+  "description": "Homebridge plugin to turn on Xbox One",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcreative/homebridge-pet-feeder.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "pet feeder",
+    "cat",
+    "dog",
+    "llama"
+  ],
+  "author": "Adam Robertson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arcreative/homebridge-pet-feeder/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "homepage": "https://github.com/arcreative/homebridge-pet-feeder#readme",
+  "dependencies": {
+    "request": "*"
+  }
+}

@@ -1,0 +1,23 @@
+# homebridge-wio-relay
+
+Homebridge plugin to activate a Wio Link relay
+
+## Installation
+
+Naturally...
+```
+npm install -g homebridge-wio-relay
+```
+
+## Configuration
+
+Add this to your `~/.homebridge/config.json` as an accessory:
+```
+{
+  "accessory": "WioRelay",
+  "name": "Garage Door",
+  "onCommand": "https://iot.seeed.cc/v1/node/GroveRelayD0/onoff/1?access_token=YOUR_GROVE_ACCESS_TOKEN",
+  "offCommand": "https://iot.seeed.cc/v1/node/GroveRelayD0/onoff/0?access_token=YOUR_GROVE_ACCESS_TOKEN"
+  "duration": 3000
+}
+```
