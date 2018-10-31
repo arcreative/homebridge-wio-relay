@@ -1,6 +1,6 @@
 # homebridge-wio-relay
 
-Homebridge plugin to activate a Wio Link relay
+Homebridge plugin to activate a Wio Link relay momentarily (functions as a momentary "push button" for something like garage door opener).
 
 ## Installation
 
@@ -18,6 +18,6 @@ Add this to your `~/.homebridge/config.json` as an accessory:
   "name": "Garage Door",
   "onCommand": "https://iot.seeed.cc/v1/node/GroveRelayD0/onoff/1?access_token=YOUR_GROVE_ACCESS_TOKEN",
   "offCommand": "https://iot.seeed.cc/v1/node/GroveRelayD0/onoff/0?access_token=YOUR_GROVE_ACCESS_TOKEN"
-  "duration": 3000
+  "duration": 1000
 }
 ```

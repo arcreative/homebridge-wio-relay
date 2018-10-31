@@ -13,7 +13,7 @@ function WioRelayAccessory(log, config) {
   this.name = config['name'] || 'Wio Relay'
   this.onCommand = config['onCommand'] || '';
   this.offCommand = config['offCommand'] || '';
-  this.duration = config['duration'] || 2000;
+  this.duration = config['duration'] || 1000;
 }
 
 WioRelayAccessory.prototype = {
